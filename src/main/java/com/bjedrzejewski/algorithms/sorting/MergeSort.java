@@ -14,6 +14,11 @@ public final class MergeSort implements SortingAlgorithm {
         mergeSort(a, 0, a.length-1);
     }
 
+    @Override
+    public String getName() {
+        return "Merge Sort";
+    }
+
     private void mergeSort(int[] a, int p, int r) {
         if (p < r) {
             int q = (p + r) / 2;

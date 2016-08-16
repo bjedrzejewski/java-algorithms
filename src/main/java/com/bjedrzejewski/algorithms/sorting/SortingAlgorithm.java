@@ -12,4 +12,9 @@ public interface SortingAlgorithm {
      */
     void sort(int[] a);
 
+    /**
+     *
+     * @return algorithm name
+     */
+    String getName();
 }

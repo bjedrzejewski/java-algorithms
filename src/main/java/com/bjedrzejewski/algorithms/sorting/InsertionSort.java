@@ -31,4 +31,9 @@ public final class InsertionSort implements SortingAlgorithm {
         }
     }
 
+    @Override
+    public String getName() {
+        return "Insertion Sort";
+    }
+
 }
