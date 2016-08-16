@@ -29,11 +29,11 @@ public class SortingTest {
 
     public void testSorting(SortingAlgorithm sortingAlgorithm) throws Exception {
 
-        int[] arr = {1,5,4,2,3,6,9,8,7,0};
+        int[] arr = {1, 5, 4, 2, 3, 6, 9, 8, 7, 0};
 
         sortingAlgorithm.sort(arr);
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             assertEquals(arr[i], i);
         }
 

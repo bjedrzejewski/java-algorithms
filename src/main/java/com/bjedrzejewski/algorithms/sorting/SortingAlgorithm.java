@@ -7,8 +7,9 @@ public interface SortingAlgorithm {
 
     /**
      * Sort an integer array in place
-     * @param input unsorted array
+     *
+     * @param a unsorted array
      */
-    void sort(int[] input);
+    void sort(int[] a);
 
 }
