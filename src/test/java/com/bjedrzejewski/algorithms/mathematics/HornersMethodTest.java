@@ -10,9 +10,9 @@ import static org.junit.Assert.*;
 public class HornersMethodTest {
 
     @Test
-    public void hornersMethodTest(){
+    public void hornersMethodTest() {
         double x = 3;
-        double[] a ={1, 4, 2, 5};
+        double[] a = {1, 4, 2, 5};
 
         HornersMethod hornersMethod = new HornersMethod();
         double value = hornersMethod.evaluatePolynomial(a, x);
