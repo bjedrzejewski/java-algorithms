@@ -5,17 +5,13 @@ import java.util.List;
 /**
  * Created by bartoszjedrzejewski on 15/08/2016.
  */
-public final class InsertionSort {
-
-    private InsertionSort(){
-
-    }
+public final class InsertionSort implements SortingAlgorithm{
 
     /**
      * Insertion sort in place on an array of int.
      * @param input
      */
-    public static void sort(int[] input){
+    public void sort(int[] input){
         //Arrays of size 0 and 1 are already sorted.
         if(input.length < 2){
             return;
