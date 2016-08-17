@@ -14,7 +14,7 @@ public class HornersMethod {
      * @param x value of x to be evaluated
      * @return
      */
-    public double evaluatePolynomial(double[] a, double x) {
+    public static double evaluatePolynomial(double[] a, double x) {
         double result = 0;
         for (int i = a.length - 1; i >= 0; i--) {
             result = a[i] + x * result;
