@@ -1,11 +1,11 @@
-package com.bjedrzejewski.competitions.templates;
+package com.bjedrzejewski.competitions.codeforces.round280;
 
-import java.util.*;
+import java.util.Scanner;
 
 /**
- * Basic template for CodeForces submissions
+ * Created by bartoszjedrzejewski on 20/08/2016.
  */
-public class CodeForces {
+public class VanyaLanterns {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         long a = input.nextLong();
@@ -15,3 +15,4 @@ public class CodeForces {
         input.close();
     }
 }
+
