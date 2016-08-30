@@ -1,4 +1,4 @@
-package hackerrank.worldcodesprint6;
+package com.bjedrzejewski.competitions.hackerrank.worldcodesprint6;
 
 import java.util.*;
 
